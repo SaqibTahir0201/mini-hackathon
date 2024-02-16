@@ -1,0 +1,509 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+/* TODO ---------------------- */
+/*!? ----------------------? */
+/*!       CONTAINER     */
+/*!? ---------------------? */
+/* TODO -----------------------*/
+
+.container {
+  background-image: url(./workit-landing-page/assets/images/background-hero.svg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*! -------------------------- */
+/*? ---------NAVBAR-------- */
+/*! -------------------------- */
+
+.nav {
+  /* background-color: red; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 25px; */
+  padding-top: 30px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  /* background-color: pink; */
+}
+/* TODO NAVBAR PARAGRAPH */
+.main-nav p {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+/* TODO NAVBAR SPAN */
+.main-nav span {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+/* TODO NAVBAR A */
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: 0.4s linear;
+  text-decoration: 3px #43ffa2 underline;
+}
+
+
+/* TODO ---------------------- */
+/*!? ----------------------? */
+/*!          HERO      */
+/*!? ---------------------? */
+/* TODO -----------------------*/
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  /* position: relative; */
+}
+
+.hero-des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* background-color: blueviolet; */
+  flex-direction: column;
+  position: relative;
+  /* background-image: url(./workit-landing-page/assets/images/bg-pattern-2.svg); */
+}
+
+/*! ------------------------------- */
+/* TODO SPRING PNG 01 */
+/*! ------------------------------- */
+
+.png-01 {
+  position: absolute !important;
+  width: 10vw;
+  height: 40vh;
+  /* background-color: pink; */
+  left: 0 !important;
+  top: 15% !important;
+  /* size-adjust: 5rem; */
+}
+/*! ------------------------------- */
+/*! ------------------------------- */
+
+.hero h1 {
+  font-size: 5.5rem;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  /* background-color: blue; */
+}
+
+.hero span {
+  text-decoration: #43ffa2 underline;
+}
+
+/*! ------------------------------- */
+/* TODO SPRING PNG 02 */
+/*! ------------------------------- */
+
+.png-02 {
+  position: absolute !important;
+  width: 10vw;
+  height: 40vh;
+  /* background-color: pink; */
+  top: 50% !important;
+  right: 0 !important;
+  /* size-adjust: 5rem; */
+}
+/*! ------------------------------- */
+/*! ------------------------------- */
+
+.hero button {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #43ffa2;
+  padding: 15px 30px;
+  border-radius: 5px;
+  /* animation: pulse 0.9s infinite; */
+}
+
+.hero-img {
+  background-image: url(./workit-landing-page/assets/images/image-hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170vh;
+  width: 50%;
+  /* background-color: red; */
+}
+/* TODO ---------------------- */
+/*!? ----------------------? */
+/*!     SECTION AREA     */
+/*!? ---------------------? */
+/* TODO -----------------------*/
+.sec-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  /* position: relative; */
+  background-color: #fbf8ff;
+  /* background-color: green; */
+}
+
+/* TODO SECTION NUMBER */
+.sec-area .num {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  width: 80%;
+  color: black;
+  /* padding-left: auto; */
+  /* padding-right: auto; */
+}
+/* padding: 10px; */
+
+.sec-area .num p {
+  font-size: 2rem;
+  /* font-weight: 900; */
+  color: white;
+  height: 20px;
+  width: 20px;
+  /* background-color: blue; */
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: black;
+}
+
+/* TODO SECTION HEADING */
+.sec-heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 12vh;
+  /* background-color: purple; */
+  /* position: relative; */
+}
+
+.sec-heading h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  /* color: white; */
+  text-align: center;
+  /* background-color: blue; */
+  height: 10vh;
+  width: 60%;
+  padding: 10px;
+  color: black;
+}
+/* TODO NAVBAR PARAGRAPH */
+.sec-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20vh;
+  /* background-color: peachpuff; */
+  /* position: relative; */
+  padding: 10px;
+}
+
+.sec-para p {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  /* background-color: blue; */
+  height: 20vh;
+  width: 60%;
+  padding: 10px;
+  /* line-height: 10px; */
+  color: black;
+}
+/* TODO ---------------------- */
+/*!? ----------------------? */
+/*!      LAST SECTION    */
+/*!? ---------------------? */
+/* TODO -----------------------*/
+.last-sec {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.last-sec-img {
+  position: absolute;
+  height: 60%;
+  /* width: ; */
+  top: 10%;
+  left: 15%;
+  z-index: 1;
+}
+/* TODO LAST SECTION DESIGN  */
+.last-sec-des {
+  position: absolute;
+  background-color: #030637;
+  height: 60vh;
+  width: 60%;
+  bottom: 15%;
+  right: 3%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-direction: column;
+}
+
+/* TODO LAST SECTION HEADING  */
+.last-sec-des h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  /* color: black; */
+  text-align: center;
+  /* background-color: blue; */
+  height: 10vh;
+  width: 60%;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* TODO LAST SECTION PARAGRAPH  */
+.last-sec-des .last-sec-para {
+  font-size: 1.5rem;
+  font-weight: 900;
+  height: 10vh;
+  width: 60%;
+  padding: 5px;
+  color: white;
+}
+/* TODO NAVBAR BUTTON */
+last-sec-but {
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  /* background-color: red; */
+}
+.last-sec-des button {
+  position: absolute;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #43ffa2;
+  padding: 15px 20px;
+  border-radius: 5px;
+  bottom: 20%;
+  left: 20%;
+  color: black;
+  /* transition: 0.3s ease; */
+  animation: pulse 0.7s infinite;
+  cursor: pointer;
+}
+/*! ------------------------------ */
+/* TODO NAVBAR BUTTON ANIMATION */
+/*! ------------------------------ */
+/* .pulse:hover { */
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.02, 1.02, 1.02);
+    transform: scale3d(1.02, 1.02, 1.02);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+/* } */
+
+/* TODO ---------------------- */
+/*!? ----------------------? */
+/*!          FOOTER      */
+/*!? ---------------------? */
+/* TODO -----------------------*/
+
+.light-logo {
+  position: relative;
+  width: 100%;
+  height: 5vh;
+  /* background-color: red; */
+}
+
+
+.light-logo img {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*! -----------------------*/
+/* TODO ---------------------- */
+/*!? ----------------------? */
+/*!      FOOTER  END    */
+/*!? ---------------------? */
+/* TODO -----------------------*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.footer-end {
+  min-width: 100%;
+  min-height: 30vh;
+}
+.background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.75s;
+  background: #030637 !important ;
+}
+.footer {
+  padding: 0px;
+  width: 640px;
+  margin: 2rem auto auto auto;
+}
+ul {
+  list-style-type: none;
+}
+.footer-li a {
+  padding: 40px 60px;
+  float: left;
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-li a:hover .circle {
+  position: relative;
+  z-index: 1;
+  /* left: -20PX; */
+  top: -60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  animation: illuminate 2s ease-out infinite;
+  background: #fdc6be;
+}
+.footer-li i {
+  height: 50px;
+}
+.footer-li a:hover i {
+  transform: translateY(-10px);
+}
+.footer-li a .title {
+  font-size: 0px;
+}
+.footer-li a:hover .title {
+  transform: translateY(10px);
+  font-size: 15px;
+  transition: 0.5s;
+}
+.footer-li a.title:hover {
+  transform: translateY(-10px);
+}
+.footer li:first-child a {
+  background: #030637 !important;
+}
+.footer li:nth-child(2) a {
+  background: #3c0753 !important;
+}
+.footer li:nth-child(3) a {
+  background: #720455 !important;
+}
+.footer li:nth-child(4) a {
+  background: #910a67 !important;
+}
+.footer li:first-child:hover ~ .background {
+  background: #030637 !important;
+}
+.footer li:nth-child(2):hover ~ .background {
+  background: #3c0753 !important;
+}
+.footer li:nth-child(3):hover ~ .background {
+  background: #720455 !important;
+}
+.footer li:nth-child(4):hover ~ .background {
+  background: #910a67 !important;
+}
+@keyframes illuminate {
+  0% {
+    transform: scale(0.7, 0.7);
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+
+
+/*! ---------------------- */
+/*! ------THE END--------- */
+/*! ---------------------- */
